@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🎊 Báo Tường Online – Xuân Yêu Thương 2026 🎊</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <!-- LINK CSS TÁCH RIÊNG -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 3D Horses -->
+    <model-viewer
+      src="nguacanh.glb"
+      class="horse-left"
+      auto-rotate
+      auto-rotate-delay="0"
+      rotation-per-second="30deg"
+      camera-controls="false"
+      disable-zoom
+      exposure="1.3"
+      shadow-intensity="0.5"
+      ar
+      alt="Horse 3D"
+    >
+    </model-viewer>
+
+    <model-viewer
+      src="nguacanh.glb"
+      class="horse-right"
+      auto-rotate
+      auto-rotate-delay="0"
+      rotation-per-second="-30deg"
+      camera-controls="false"
+      disable-zoom
+      exposure="1.3"
+      shadow-intensity="0.5"
+      ar
+      alt="Horse 3D"
+    >
+    </model-viewer>
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="page">
+      <!-- NỀN SAO & ĐÈN LỒNG -->
+      <div class="stars"></div>
+      <div class="lantern l1"></div>
+      <div class="lantern l2"></div>
+      <div class="lantern l3"></div>
+
+      <!-- HERO -->
+      <header class="hero" id="top">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav-logo">
+              <span class="logo-dot"></span>
+              Báo Tường Xuân 2026
+            </div>
+
+            <div class="nav-links">
+              <a href="#about">Lời Ngỏ</a>
+              <a href="#highlights">Phong Tục</a>
+              <a href="#poem">Thơ Xuân</a>
+              <a href="#feedback">Hộp Thư</a>
+            </div>
+          </nav>
+
+          <div class="hero-grid">
+            <div class="hero-text">
+              <div class="hero-kicker">
+                <span class="hero-kicker-dot"></span>
+                🎊 Mừng Xuân Bính Ngọ – 2026 🎊
+              </div>
+
+              <h1 class="hero-title">
+                Báo Tường Online<br />
+                <span class="highlight">Xuân Yêu Thương</span>
+              </h1>
+
+              <p class="hero-subtitle">
+                Mừng 1 Tết:
+                <strong>Thứ Ba, ngày 17/02/2026 (Dương lịch)</strong>.<br />
+                Chúc thầy cô và các bạn một năm mới an khang – thịnh vượng –
+                tràn đầy hạnh phúc. Xuân Bính Ngọ gõ cửa, mang theo niềm tin,
+                tài lộc và những khởi đầu rạng rỡ.
+              </p>
+
+              <div class="hero-badges">
+                <span class="badge">📜 Lời Ngỏ Đầu Xuân</span>
+                <span class="badge">🌸 Phong Tục Ngày Tết</span>
+                <span class="badge">💌 Hộp Thư Đầu Năm</span>
+                <span class="badge">🎋 Thơ Xuân – Xuân Ngọ Về</span>
+              </div>
+
+              <div class="hero-cta">
+                <a href="#feedback" class="btn-primary"
+                  >Viết lời chúc đầu năm →</a
+                >
+                <a href="#about" class="btn-ghost"
+                  ><span class="dot"></span>Xem lời ngỏ</a
+                >
+              </div>
+
+              <div class="hero-note">
+                Một mùa xuân mới – một hành trình mới – một hy vọng mới.
+              </div>
+            </div>
+
+            <!-- THIỆP TẾT -->
+            <div class="hero-scene">
+              <div class="card-hero">
+                <div class="card-header">
+                  <div class="card-header-left">Xuân 2026</div>
+                  <div class="card-pill">
+                    <span class="card-pill-dot"></span>
+                    Chúc Mừng Năm Mới
+                  </div>
+                </div>
+
+                <div class="card-main">
+                  <div class="card-main-title">Tết Bính Ngọ 2026</div>
+                  <div class="card-main-subtitle">
+                    An khang – Thịnh vượng – Vạn sự như ý.
+                  </div>
+
+                  <div class="lucky-money">
+                    <div class="envelope"></div>
+                    <div class="lucky-text">
+                      Đầu xuân nhận phong bao đỏ,<br />
+                      cả năm bình an – hạnh phúc<br />
+                      tràn đầy may mắn.
+                    </div>
+                  </div>
+
+                  <div class="card-meta">
+                    <div class="creator">
+                      <div class="creator-avatar">H</div>
+                      <div class="creator-label">
+                        <span class="creator-name">Đặng Thái Hưng</span>
+                        <span class="creator-role">Thiết kế & phát triển</span>
+                      </div>
+                    </div>
+
+                    <div class="countdown">
+                      <span class="number">2026</span>
+                      <span class="label">Chào Xuân mới</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- PHÁO HOA -->
+                <div class="firework f1"></div>
+                <div class="firework f2"></div>
+                <div class="firework f3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- LỜI NGỎ -->
+      <section id="about">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-kicker">📜 Lời Ngỏ Đầu Xuân</div>
+            <h2 class="section-title">
+              Xuân 2026 – Xuân của Yêu Thương & Đoàn Viên
+            </h2>
+
+            <p class="section-description">
+              Kính chúc quý thầy cô, bạn bè một năm mới an khang thịnh vượng.
+              Mong những ngày đầu năm mang đến may mắn, hạnh phúc cho mọi nhà.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                Tết Bính Ngọ 2026 – mùa xuân của sự mạnh mẽ, bứt phá như hình
+                tượng chú ngựa, mang theo khát vọng, niềm tin và năng lượng mới.
+              </p>
+
+              <p>
+                Đây là lúc ta cùng nhìn lại một năm đã qua, trân trọng những gì
+                đã đạt được, và chào đón một chặng đường mới đầy hy vọng.
+              </p>
+
+              <p>
+                Ngày Tết không thể thiếu bánh chưng xanh, cành đào thắm, cành
+                mai vàng, cùng phong tục ông Công ông Táo, dọn dẹp nhà cửa, đi
+                chúc Tết – tất cả làm nên bản sắc Tết Việt muôn đời.
+              </p>
+
+              <div class="about-tags">
+                <span class="about-tag">🌸 Hoa đào – Hoa mai</span>
+                <span class="about-tag">🧨 Pháo hoa giao thừa</span>
+                <span class="about-tag">🧧 Bao lì xì đỏ</span>
+                <span class="about-tag">🍊 Mâm ngũ quả</span>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-row">
+                <span>Chủ đề:</span>
+                <strong>Xuân Yêu Thương 2026</strong>
+              </div>
+              <div class="about-card-row">
+                <span>Mừng 1 Tết:</span>
+                <strong>17/02/2026 (Thứ Ba)</strong>
+              </div>
+              <div class="about-card-row">
+                <span>Nét đẹp:</span>
+                <strong>Đoàn viên – Hạnh phúc – Tài lộc</strong>
+              </div>
+
+              <p class="about-small">
+                Hãy cùng nhau lan toả yêu thương qua những lời chúc đầu xuân và
+                chia sẻ cảm xúc trong hộp thư bên dưới.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHONG TỤC -->
+      <section id="highlights">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-kicker">🌸 Phong Tục Ngày Tết Việt</div>
+            <h2 class="section-title">Những nét đẹp truyền thống</h2>
+            <p class="section-description">
+              Bánh chưng xanh – câu đối đỏ – hoa đào thắm – hoa mai vàng. Những
+              điều quen thuộc làm nên cái hồn của Tết Việt.
+            </p>
+          </div>
+
+          <div class="highlights-grid">
+            <div class="highlight-card">
+              <div class="highlight-emoji">🍙</div>
+              <div class="highlight-title">Bánh Chưng – Bánh Tét</div>
+              <p class="highlight-text">
+                Món ăn truyền thống biểu tượng cho đất trời, không thể thiếu
+                trong mỗi gia đình Việt.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-emoji">🧧</div>
+              <div class="highlight-title">Lì Xì Đầu Năm</div>
+              <p class="highlight-text">
+                Lời chúc may mắn được gửi gắm qua phong bao đỏ – niềm vui trẻ
+                nhỏ, sự may mắn cho người lớn.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-emoji">🏮</div>
+              <div class="highlight-title">Chúc Tết – Xông Đất</div>
+              <p class="highlight-text">
+                Gửi nhau lời chúc tốt đẹp, người xông đất hợp tuổi đem lại may
+                mắn cho cả năm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- THƠ XUÂN -->
+      <section id="poem">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-kicker">🎋 Bài Thơ Xuân</div>
+            <h2 class="section-title">Xuân Ngọ Về</h2>
+          </div>
+
+          <div
+            class="about-text"
+            style="text-align: center; max-width: 700px; margin: 0 auto"
+          >
+            <p>Người phấn đón Tết đến xuân sang</p>
+            <p>Bính Ngọ một năm làm vẻ vàng</p>
+            <p>Gia đình sum họp, hoa đào nở</p>
+            <p>Phúc lộc tràn trề, đón lộc vàng.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HỘP THƯ ĐẦU NĂM -->
+      <section id="feedback">
+        <div class="section-inner">
+          <div class="section-header">
+            <div class="section-kicker">💌 Hộp Thư Đầu Năm</div>
+            <h2 class="section-title">Gửi lời chúc xuân 2026</h2>
+            <p class="section-description">
+              Một vài lời chúc đầu xuân từ bạn bè:
+            </p>
+          </div>
+
+          <div class="about-text">
+            <p>
+              <strong>Thái Hưng:</strong> Chúc bé mình Bính Ngọ học hành tấn
+              tới, ai cũng đạt được mục tiêu mong muốn!
+            </p>
+            <p>
+              <strong>Mình Sang:</strong> Chúc thầy cô thật nhiều sức khỏe, luôn
+              là người lái đò tận tụy đưa chúng em đến bến bờ tri thức!
+            </p>
+          </div>
+
+          <br /><br />
+
+          <!-- FORM -->
+          <div class="feedback-wrapper">
+            <div class="feedback-card">
+              <form>
+                <div class="form-row">
+                  <div class="form-control">
+                    <label>Tên của bạn</label>
+                    <input type="text" placeholder="Ví dụ: Nguyễn Văn A" />
+                  </div>
+
+                  <div class="form-control">
+                    <label>Email (tuỳ chọn)</label>
+                    <input type="email" placeholder="ban@example.com" />
+                  </div>
+                </div>
+
+                <div class="form-control">
+                  <label>Cảm nhận của bạn</label>
+                  <select>
+                    <option>Rất ấn tượng ✨</option>
+                    <option>Ổn, có thể cải thiện thêm</option>
+                    <option>Ý tưởng hay nhưng cần chỉnh thêm</option>
+                  </select>
+                </div>
+
+                <div class="form-control">
+                  <label>Lời nhắn</label>
+                  <textarea placeholder="Bạn muốn gửi lời chúc gì?"></textarea>
+                  <div class="form-note">*Form chỉ mang tính giao diện.</div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="button" class="btn-primary">
+                    Gửi lời chúc
+                  </button>
+
+                  <div class="fake-checkbox">
+                    <span></span> Tôi đồng ý chia sẻ lời chúc này
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="feedback-side">
+              <h3>Thông tin người thực hiện</h3>
+              <p>
+                Trang Báo Tường Xuân 2026 được thiết kế bởi
+                <strong>Đặng Thái Hưng</strong>, với mong muốn mang lại không
+                khí Tết sống động, ấm áp và đầy cảm xúc.
+              </p>
+
+              <ul>
+                <li>👨‍💻 Thiết kế & phát triển giao diện</li>
+                <li>🎨 Công nghệ: HTML + CSS + Animation</li>
+              </ul>
+
+              <div class="feedback-pill">
+                <span class="feedback-dot"></span>
+                Chúc bạn một năm mới an khang – thịnh vượng – vạn sự như ý! 🎉
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-inner">
+          <span>© 2026 · Thiết kế bởi <strong>Đặng Thái Hưng</strong>.</span>
+          <span>Xuân Yêu Thương – Bính Ngọ 2026 🎊</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<script>
+  const canvas = document.getElementById("fireworksCanvas");
+  const ctx = canvas.getContext("2d");
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
+
+  function random(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  class Firework {
+    constructor() {
+      this.x = random(100, canvas.width - 100);
+      this.y = canvas.height + 10;
+      this.targetY = random(80, canvas.height * 0.4);
+      this.speed = random(2, 4);
+      this.particles = [];
+      this.colors = ["#FFD166", "#FF4D6D", "#9A4DFF", "#5CC9FF", "#FF9FE3"];
+    }
+
+    update() {
+      if (this.y > this.targetY) {
+        this.y -= this.speed;
+      } else {
+        this.explode();
+        return true;
+      }
+      this.drawLaunch();
+      return false;
+    }
+
+    drawLaunch() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, 3, 0, Math.PI * 2);
+      ctx.fillStyle = "#ffd166";
+      ctx.fill();
+    }
+
+    explode() {
+      for (let i = 0; i < 30; i++) {
+        this.particles.push(new Particle(this.x, this.y, this.colors));
+      }
+    }
+  }
+
+  class Particle {
+    constructor(x, y, colors) {
+      this.x = x;
+      this.y = y;
+      this.size = random(2, 4);
+      this.speedX = random(-3, 3);
+      this.speedY = random(-3, 3);
+      this.gravity = 0.05;
+      this.friction = 0.98;
+      this.alpha = 1;
+      this.color = colors[Math.floor(Math.random() * colors.length)];
+    }
+
+    update() {
+      this.speedX *= this.friction;
+      this.speedY *= this.friction;
+      this.speedY += this.gravity;
+      this.x += this.speedX;
+      this.y += this.speedY;
+      this.alpha -= 0.02;
+      this.draw();
+      return this.alpha <= 0;
+    }
+
+    draw() {
+      ctx.save();
+      ctx.globalAlpha = this.alpha;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+
+  let fireworks = [];
+  let particles = [];
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (Math.random() < 0.03) {
+      fireworks.push(new Firework());
+    }
+
+    fireworks = fireworks.filter((fw) => {
+      if (fw.update()) {
+        particles.push(...fw.particles);
+        return false;
+      }
+      return true;
+    });
+
+    particles = particles.filter((p) => !p.update());
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
